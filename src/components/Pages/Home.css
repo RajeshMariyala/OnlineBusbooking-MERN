@@ -1,0 +1,204 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: -155px;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-card {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+  }
+  
+  .search-card h6 {
+    margin-bottom: 20px;
+    
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-input {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .search-button0 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #1f0780;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+ 
+
+
+  
+  /* images cards css part*/
+  
+.animated-image {
+    height: 250px;
+    width: 350px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .animated-image:hover {
+    transform: translateY(-5px);
+  }
+
+  .textcard {
+    width: 1300px;
+    border: 1px solid #aba6a6;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color:#e8e3e38f;
+    margin-left:70px ;
+    
+  }
+  
+  .textcard h6 {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .textcard p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    padding-left: 0px;
+    text-align: left; /* Add left padding to align with the heading */
+  }
+  
+  .textcard ul {
+    margin: 10px 0;
+    padding-left: 0;
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 5px; /* Gap between items */
+  }
+
+  .textcard li {
+    font-size: 12px;
+    padding: 5px;
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  .small-card {
+    display: inline-block; /* Change display to inline-block */
+    vertical-align: top; /* Align cards to the top */
+    width: 300px;
+    border: 1px solid #fffdfd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 1%;
+    
+  }
+
+  .small-card:hover{
+    transform: translateX(-5px);
+  }
+  
+  .small-card-image {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+  }
+  
+  .small-card-content {
+    display: inline-block; /* Ensure content divs also display inline-block */
+    vertical-align: top; /* Align content to the top */
+    width: calc(100% - 55px); /* Adjust width to account for image width and margin */
+  }
+  
+  .small-card-heading {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .small-card-description {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+    text-align: left;
+  }
+  
+  /*small cards bus operators*/
+  
+  .small-card2 {
+    display: inline-block; /* Change display to inline-block */
+    vertical-align: top; /* Align cards to the top */
+    width: 150px;
+    border: 1px solid #fffdfd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 1%;
+    
+  }
+  
+  .small-card2-image {
+    width: 100px;
+    height: 90px;
+    margin-right: 10px;
+  }
+  
+  .small-card2-content {
+    display: inline-block; /* Ensure content divs also display inline-block */
+    vertical-align: top; /* Align content to the top */
+    width: calc(100% - 55px); /* Adjust width to account for image width and margin */
+  }
+
+  .small-card2:hover{
+    transform: translateY(-5px);
+
+  }
+  
+  .small-card2-heading {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .small-card2-description {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+    font-size: 10px;
+  }
+  

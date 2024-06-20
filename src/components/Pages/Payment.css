@@ -1,0 +1,315 @@
+.container-fluid {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+  margin-left: 70px;
+  margin-bottom: 60px;
+  margin-top: -2%;
+
+
+}
+
+.payment-methods {
+  display: block;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  height: 500px;
+  margin-left: 60px;
+
+}
+
+.payment-methods h3 {
+  text-align: left;
+  margin-bottom: 25px;
+  font-size: 20px;
+
+}
+
+.custom-button1 {
+  width: 30%;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-bottom: 15px;
+  display: block;
+  background-image: url('https://static-00.iconduck.com/assets.00/upi-id-icon-2048x2048-fcpa38th.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button2 {
+  width: 30%;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-bottom: 15px;
+  display: block;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/019/938/039/original/bank-icon-bank-and-business-sign-and-symbol-png.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button3 {
+  width: 30%;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-bottom: 15px;
+  display: block;
+  background-image: url('https://cdn.pixabay.com/photo/2021/09/20/08/55/credit-card-6640238_1280.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button4 {
+  width: 30%;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-bottom: 15px;
+  display: block;
+  background-image: url('https://zeevector.com/wp-content/uploads/PayPal-Symbol.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button:hover,
+.custom-button2:hover,
+.custom-button3:hover,
+.custom-button4:hover {
+  background-color: #485158;
+}
+
+.payment-form {
+  padding: 20px;
+  background-color: rgba(206, 44, 44, 0);
+
+  width: 300px;
+  margin-left: 500px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.payment-form-wrapper1 {
+  margin-top: -350px;
+  font-size: 10px;
+  margin-left: 600px;
+  margin-bottom: 15px;
+  padding: 4px;
+  text-align: left;
+  width: 400px;
+
+}
+
+
+.upitext {
+  font-size: 16px;
+  margin-top: 30px;
+  color: rgb(18, 18, 134);
+  font-weight: bold;
+  margin-left: 80px;
+  margin-bottom: 20px;
+
+}
+
+.upibutton {
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+.inputtext {
+  margin-left: 60px;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 4px 4px 4px;
+
+}
+
+.payment-form-wrapper2 {
+
+  padding: 30px;
+  background-color: #f8f9fa;
+
+}
+
+.payment-form-wrapper2 form {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.payment-form-wrapper2 select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+
+
+}
+
+.payment-form-wrapper2 select:focus {
+  outline: none;
+}
+
+.payment-form-wrapper2 button[type="submit"] {
+  width: 10%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #100560;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.payment-form-wrapper2 select option {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form-wrapper2 select option:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+
+
+.form-label {
+  font-size: 20px;
+
+}
+
+
+.card-form-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 0px;
+
+}
+
+
+
+.card-form-wrapper form {
+  width: 100%;
+}
+
+.card-form-wrapper form .form-group {
+  margin-bottom: 20px;
+}
+
+.card-form-wrapper form .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.card-form-wrapper form .col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-form-wrapper form label {
+  font-size: 18px;
+}
+
+.card-form-wrapper form input,
+.card-form-wrapper form select,
+.card-form-wrapper form button {
+  font-size: 16px;
+}
+
+
+.bold-colorful-text {
+  font-weight: bold;
+  color: #17569a;
+  text-align: right;
+}
+
+.error-message {
+  color: red;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 630px;
+  width: 300px;
+}
+
+.success-message {
+  color: green;
+}
+
+.payment-form-wrapper3 {
+  margin-top: -400px;
+  font-size: 10px;
+  margin-left: 500px;
+  margin-bottom: 15px;
+  padding: 4px;
+  text-align: left;
+  width: 700px;
+
+
+}
+
+.payment-form-wrapper2 {
+  margin-top: 20px;
+  font-size: 10px;
+  margin-left: 500px;
+  margin-bottom: 15px;
+  padding: 4px;
+  text-align: left;
+  width: 700px;
+  margin-top: -100%;
+
+}
+
+.payment-form-wrapper5 {
+  margin-top: -400px;
+  font-size: 10px;
+  margin-left: 350px;
+  margin-bottom: 10px;
+  padding: 4px;
+  text-align: left;
+  width: 800px;
+
+  height: 300px;
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.button-netbanking {
+  width: 150px;
+  background-color: #100560;
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}

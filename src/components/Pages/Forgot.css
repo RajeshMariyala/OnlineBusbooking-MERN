@@ -1,0 +1,59 @@
+/* ForgotPassword.css */
+
+.forgot-password-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #fffefe;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .forgot-password-container h2 {
+    margin-top: 0px;
+  }
+  
+  .input-field {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+   
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: rgb(0, 17, 128);
+  }
+  
+  /* Style for the reset password link */
+  .reset-link {
+    color: #02366e;
+    cursor: pointer;
+  }
+  
+  /* Style for error message */
+  .error-message {
+    color: red;
+  }
+  .captcha-button{
+    background-color: #02366e;
+    margin-bottom: 10px;
+    margin-left: 190px;
+    font-size: 10px;
+  }
+  .captcha-button:hover{
+    background-color: #02366e;
+  }

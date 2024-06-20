@@ -1,0 +1,43 @@
+.circle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 100px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.circle1:hover{
+    transform: translateX(-5px);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.flex{
+    display: flex;
+}
+
+h4{
+    margin-top: 30px;
+}
+
+h3{
+    margin-top: -10px;
+margin-left: -5px;
+}
+
+.container1{
+    display: flex;
+    margin-left: 320px;
+}

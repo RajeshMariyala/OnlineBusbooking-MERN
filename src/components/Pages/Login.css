@@ -1,0 +1,31 @@
+.card{
+  width: 420px;
+  height: 380px;
+  border: 2px solid black;
+  box-shadow:5px 5px black;
+  margin-left: 550px;
+  border-radius: 8px;
+}
+
+.text1{
+  width: 200px;
+
+}
+
+.text2{
+  width: 200px;
+}
+
+.text3{
+  width: 200px;
+}
+
+.signup{
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.text4{
+  margin-left: -15px;
+}

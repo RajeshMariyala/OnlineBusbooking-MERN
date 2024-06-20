@@ -1,0 +1,24 @@
+.form{
+    width: 300px;
+    border: 2px solid black;
+    margin-left: 40%;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.table2{
+background-color: transparent;
+margin-left: 140px;
+margin-bottom: 20px;
+}
+
+h3{
+    margin-left: -30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.page2{
+    margin-top: -130px;
+}

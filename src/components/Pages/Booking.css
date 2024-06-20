@@ -1,0 +1,179 @@
+.bus-cards {
+  flex-wrap: wrap;
+  gap: 20px;
+
+  margin-top: -10px;
+}
+
+.bus-card {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 900px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 20px;
+  margin: 10px;
+  text-align: left;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.ticketbtn {
+  color: white;
+  background-color: rgb(4, 4, 107);
+  font-family: sans-serif;
+  width: 100px;
+}
+
+.ticketbtn:hover {
+  width: 110px;
+  height: 40px;
+}
+
+.p {
+
+  font-size: 28px;
+}
+
+.filters {
+  width: 200px;
+  margin: 0 0px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-left: 100px;
+  height: 300px;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+
+input.check1 {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+  align-items: left;
+  align-content: left;
+  margin-left: -100px;
+}
+
+input.check2 {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+  align-items: left;
+  align-content: left;
+  margin-left: -62px;
+}
+
+input.check3 {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+  align-items: left;
+  align-content: left;
+  margin-left: -65px;
+}
+
+input.check4 {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+  align-items: left;
+  align-content: left;
+  margin-left: -65px;
+}
+
+input.check5 {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+  align-items: left;
+  align-content: left;
+  margin-left: -20px;
+}
+
+.filters:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.flex {
+  display: flex;
+  margin: 40px 0 40px 30px;
+
+
+}
+
+
+.flex-item {
+  flex: 1;
+  margin-right: 20px;
+
+}
+
+.flex-item:last-child {
+  margin-right: 0;
+}
+
+.searchbox {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto 50px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 8px rgba(183, 180, 180, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-top: -60px;
+  background-color: #ffffff;
+}
+
+.text-error {
+  margin-top: 100px;
+  margin-left: 300px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.searchbox input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid rgb(4, 4, 112);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.searchbox input:last-child {
+  margin-right: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.btn-success {
+  color: white;
+  background-color: rgb(5, 5, 113);
+}
+
+.one {
+  width: 280px;
+  margin-left: 20px;
+  margin-top: -10px;
+
+}
+
+.two {
+  width: 360px;
+}
+
+.three {
+  width: 260px;
+  margin-left: 30px;
+}

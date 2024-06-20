@@ -1,0 +1,71 @@
+.bus-seat-selection {
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    height: 75%;
+  
+    margin-top: -5%; 
+  }
+  
+  
+  h2{
+    color: rgb(11, 9, 105);
+    margin-bottom: 10px;
+  }
+  
+
+  .seat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+  }
+  .seat {
+    width: 60px;
+    height: 80px;
+    border: 1px solid #cccccc; 
+    margin: 5px; 
+    cursor: pointer;
+    color: black;
+    padding: 5px 5px;
+    
+
+}
+
+  .seat.selected {
+    background-color: rgb(77, 238, 77); 
+  }
+  
+  .seat.empty {
+    background-color: white; 
+
+  }
+  .seat.booked {
+    background-color: gray;
+  }
+ 
+  .summary {
+    margin-top: 20px;
+  }
+  
+  .continue-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1f0780;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .continue-button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+ 
