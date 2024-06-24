@@ -14,7 +14,7 @@ export function Success() {
   
     const countdownTimer = setTimeout(() => {
       setShowCountdown(true);
-      axios.post("http://localhost:3005/api/user", { Name,Refno,Qty,Status:"Pending..",Amount,Date: presentDate})
+      axios.post("https://bus-booking-server.vercel.app/api/user", { Name,Refno,Qty,Status:"Pending..",Amount,Date: presentDate})
   .then(response => {
     console.log('Data saved successfully:', response.data);
     

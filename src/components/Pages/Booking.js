@@ -13,7 +13,7 @@ export const Booking = () =>  {
   const navigate = useNavigate();
   const randomBusId = Math.floor(Math.random() * 9000) + 1000;
   useEffect(() => {
-    axios.get('http://localhost:3005/api/buses')
+    axios.get('https://bus-booking-server.vercel.app/api/buses')
       .then(response => {
         setBuses(response.data);
         sessionStorage.setItem("busId", randomBusId.toString());

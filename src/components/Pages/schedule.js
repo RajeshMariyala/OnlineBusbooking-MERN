@@ -26,7 +26,7 @@ function Schedule() {
     getData();
   }, []);
   function getData() {
-    let url = "http://localhost:3005/api/Book";
+    let url = "https://bus-booking-server.vercel.app/api/Book";
     axios.get(url).then((resData) => {
       setBookArray(resData.data);
     });
@@ -47,7 +47,7 @@ function Schedule() {
     bookObj.Availability = Availability;
     bookObj.Price = Price;
 
-    let url = "http://localhost:3005/api/Book";
+    let url = "https://bus-booking-server.vercel.app/api/Book";
     axios.post(url, bookObj).then((resData) => {
       alert(resData.data.status);
       getData();
@@ -65,7 +65,7 @@ function Schedule() {
       return;
     }
 
-    let url = "http://localhost:3005/api/Book/" + Busid;
+    let url = "https://bus-booking-server.vercel.app/api/Book/" + Busid;
     axios.delete(url).then((resData) => {
       alert(resData.data.status);
       getData();
@@ -96,7 +96,7 @@ function Schedule() {
     bookObj.Availability = Availability;
     bookObj.Price = Price;
 
-    let url = "http://localhost:3005/api/Book/" + Busid;
+    let url = "https://bus-booking-server.vercel.app/api/Book/" + Busid;
     axios.put(url, bookObj)
       .then((resData) => {
         alert(resData.data.status);

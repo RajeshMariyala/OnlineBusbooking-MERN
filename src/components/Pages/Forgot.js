@@ -37,7 +37,7 @@ export const Forgot = () => {
 
         try {
           
-            const res = await axios.post("http://localhost:3005/Login", {
+            const res = await axios.post("https://bus-booking-server.vercel.app/api/Login", {
                 email,
                 password,
                 captcha

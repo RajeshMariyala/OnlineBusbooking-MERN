@@ -9,7 +9,7 @@ const HistoryOfTickets = () => {
   const [HistoryArray, sethistoryArray] = useState([]);
   const fetchData = async () => {
     try {
-        const response = await axios.get('http://localhost:3005/api/user');
+        const response = await axios.get('https://bus-booking-server.vercel.app/api/user');
         sethistoryArray(response.data);
     } catch (error) {
         console.error('Error fetching data:', error);
@@ -67,7 +67,7 @@ const RescheduleTickets = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:3005/api/user');
+      const response = await axios.get('https://bus-booking-server.vercel.app/api/user');
       setHistoryArray(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -160,7 +160,7 @@ const CancelTicket = () => {
       return;
     }
 
-    let url = `http://localhost:3005/api/user/${id}`;
+    let url = `https://bus-booking-server.vercel.app/api/user/${id}`;
     axios.delete(url)
       .then((resData) => {
         alert(resData.data.status);

@@ -23,7 +23,7 @@ export const AdminLogin = () => {
       strReturnUrl = "/adminhome";
     }
 
-    let url = "http://localhost:3005/api/admin";
+    let url = "https://bus-booking-server.vercel.app/api/admin";
 
     let userObj = {
       username: username,

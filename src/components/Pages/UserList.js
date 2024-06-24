@@ -22,7 +22,7 @@ function UsersList() {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('http://localhost:3005/api/user');
+            const response = await axios.get('https://bus-booking-server.vercel.app/api/user');
             setUserArray(response.data);
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -35,7 +35,7 @@ function UsersList() {
 
     function select_click(Refno) {  
 
-        let url = "http://localhost:3005/api/user/" + Refno;
+        let url = "https://bus-booking-server.vercel.app/api/user/" + Refno;
         axios.get(url).then((resData) =>
         {
           let userObj = resData.data;
@@ -51,7 +51,7 @@ function UsersList() {
         userObj.Refno = Refno;
         userObj.Status = Status;
       
-        let url = "http://localhost:3005/api/user";
+        let url = "https://bus-booking-server.vercel.app/api/user";
         axios.put(url, userObj).then((resData) => {
           alert(resData.data.status);
           clearFields();

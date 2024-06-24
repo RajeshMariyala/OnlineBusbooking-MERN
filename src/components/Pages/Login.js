@@ -21,7 +21,7 @@ export const Login = () => {
       strReturnUrl = "/booking";
     }
 
-    let url = "http://localhost:3005/api/Login";
+    let url = "https://bus-booking-server.vercel.app/api/Login";
 
     let userObj = {
       username: username,

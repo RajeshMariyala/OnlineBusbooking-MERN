@@ -20,7 +20,7 @@ function BusScheduling() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:3005/api/buses');
+      const response = await axios.get('https://bus-booking-server.vercel.app/api/buses');
       setBusSchedulingArray(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -40,7 +40,7 @@ function BusScheduling() {
     };
 
     try {
-      const response = await axios.post('http://localhost:3005/api/buses', newBus);
+      const response = await axios.post('https://bus-booking-server.vercel.app/api/buses', newBus);
       alert(response.data.status);
       fetchData();
       clearFields();
@@ -55,7 +55,7 @@ function BusScheduling() {
       return;
     }
 
-    let url = "http://localhost:3005/api/buses/" + id;
+    let url = "https://bus-booking-server.vercel.app/api/buses/" + id;
     axios.delete(url).then((resData) => {
       alert(resData.data.status);
       fetchData();
@@ -63,7 +63,7 @@ function BusScheduling() {
   }
 
   function select_click(id) {
-    let url = "http://localhost:3005/api/buses/" + id;
+    let url = "https://bus-booking-server.vercel.app/api/buses/" + id;
     axios.get(url).then((resData) => {
       let busObj = resData.data;
       setSno(busObj.sno)
@@ -89,7 +89,7 @@ function BusScheduling() {
     busObj.end = end;
     busObj.price = price;
 
-    let url = "http://localhost:3005/api/buses";
+    let url = "https://bus-booking-server.vercel.app/api/buses";
     axios.put(url, busObj).then((resData) => {
       alert(resData.data.status);
       clearFields();

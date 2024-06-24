@@ -17,7 +17,7 @@ function BusList() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:3005/api/buslist');
+      const response = await axios.get('https://bus-booking-server.vercel.app/api/buslist');
       setBusArray(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -42,7 +42,7 @@ function BusList() {
       BusName,
     };
 
-    const url = `http://localhost:3005/api/buslist${isEditing ? `/${editId}` : ''}`;
+    const url = `https://bus-booking-server.vercel.app/api/buslist${isEditing ? `/${editId}` : ''}`;
     const method = isEditing ? axios.put : axios.post;
 
     method(url, busObj)
@@ -66,7 +66,7 @@ function BusList() {
 
   const delete_click = (Busid) => {
     if (window.confirm("Are you sure you want to delete?")) {
-      const url = `http://localhost:3005/api/buslist/${Busid}`;
+      const url = `https://bus-booking-server.vercel.app/api/buslist/${Busid}`;
       axios.delete(url)
         .then(resData => {
           alert(resData.data.status);

@@ -61,7 +61,7 @@ export const Signup = () => {
             password: password
         };
 
-        let url = "http://localhost:3005/api/Register";
+        let url = "https://bus-booking-server.vercel.app/api/Register";
         axios.post(url, registerObj)
             .then((resData) => {
                 alert(resData.data.status);
