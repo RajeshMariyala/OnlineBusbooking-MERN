@@ -56,7 +56,7 @@
 
 
   
-  /* images cards css part*/
+ 
   
 .animated-image {
     height: 250px;
@@ -93,15 +93,15 @@
     color: #666;
     line-height: 1.6;
     padding-left: 0px;
-    text-align: left; /* Add left padding to align with the heading */
+    text-align: left; 
   }
   
   .textcard ul {
     margin: 10px 0;
     padding-left: 0;
-    display: grid; /* Use grid layout */
-    grid-template-columns: repeat(3, 1fr); /* Two columns */
-    gap: 5px; /* Gap between items */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px; 
   }
 
   .textcard li {
@@ -112,8 +112,8 @@
   }
 
   .small-card {
-    display: inline-block; /* Change display to inline-block */
-    vertical-align: top; /* Align cards to the top */
+    display: inline-block; 
+    vertical-align: top; 
     width: 300px;
     border: 1px solid #fffdfd;
     border-radius: 10px;
@@ -136,9 +136,9 @@
   }
   
   .small-card-content {
-    display: inline-block; /* Ensure content divs also display inline-block */
-    vertical-align: top; /* Align content to the top */
-    width: calc(100% - 55px); /* Adjust width to account for image width and margin */
+    display: inline-block; 
+    vertical-align: top;
+    width: calc(100% - 55px); 
   }
   
   .small-card-heading {
@@ -155,12 +155,11 @@
     text-align: left;
   }
   
-  /*small cards bus operators*/
+ 
   
   .small-card2 {
-    display: inline-block; /* Change display to inline-block */
-    vertical-align: top; /* Align cards to the top */
-    width: 150px;
+    display: inline-block;
+    vertical-align: top; 
     border: 1px solid #fffdfd;
     border-radius: 10px;
     padding: 10px;
@@ -178,9 +177,9 @@
   }
   
   .small-card2-content {
-    display: inline-block; /* Ensure content divs also display inline-block */
-    vertical-align: top; /* Align content to the top */
-    width: calc(100% - 55px); /* Adjust width to account for image width and margin */
+    display: inline-block; 
+    vertical-align: top; 
+    width: calc(100% - 55px); 
   }
 
   .small-card2:hover{
@@ -201,4 +200,5 @@
     margin: 5px 0 0;
     font-size: 10px;
   }
+   
   
