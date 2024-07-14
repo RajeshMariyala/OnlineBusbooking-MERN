@@ -1,4 +1,4 @@
-Online Bus Booking Platform
+#Online Bus Booking Platform
 Project Description
 The Online Bus Booking Platform is a comprehensive web application developed using the MERN stack. It provides users with a seamless experience for searching and booking bus tickets. The platform includes features like real-time seat availability, secure payment integration, and a user-friendly interface, ensuring an efficient and hassle-free booking process.
 
