@@ -39,17 +39,16 @@ The Online Bus Booking Platform is a comprehensive web application developed usi
   
 ## Installation
 1. Clone the repository:
-git clone https://github.com/RajeshMariyala/OnlineBusbooking-MERN.git
+ * git clone https://github.com/RajeshMariyala/OnlineBusbooking-MERN.git
+ * cd OnlineBusBooking
 
-cd OnlineBusBooking
-
-3. Frontend Setup:
+2. Frontend Setup:
 npm install
 
-4. Start the Frontend Server:
+3. Start the Frontend Server:
 npm start
 
-5. Access the Application:
+4. Access the Application:
 Open your browser and navigate to http://localhost:3000
 
 ## Deployment
