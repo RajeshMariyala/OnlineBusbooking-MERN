@@ -3,10 +3,10 @@
 The Online Bus Booking Platform is a comprehensive web application developed using the MERN stack. It provides users with a seamless experience for searching and booking bus tickets. The platform includes features like real-time seat availability, secure payment integration, and a user-friendly interface, ensuring an efficient and hassle-free booking process.
 
 ## Tech Stack
--Frontend: React.js, TypeScript
--Backend: Node.js, Express.js
--Database: MongoDB
--Deployment: Vercel (frontend), Vercel (backend)
+* Frontend: React.js, TypeScript
+* Backend: Node.js, Express.js
+* Database: MongoDB
+* Deployment: Vercel (frontend), Vercel (backend)
 
 ## Features
 ### User Authentication and Authorization
@@ -38,17 +38,17 @@ The Online Bus Booking Platform is a comprehensive web application developed usi
 * MongoDB installed and running
   
 ## Installation
-1.Clone the repository:
+1. Clone the repository:
 git clone https://github.com/RajeshMariyala/OnlineBusbooking-MERN.git
 cd OnlineBusBooking
 
-2.Frontend Setup:
+2. Frontend Setup:
 npm install
 
-3.Start the Frontend Server:
+3. Start the Frontend Server:
 npm start
 
-4.Access the Application:
+4. Access the Application:
 Open your browser and navigate to http://localhost:3000
 
 ## Deployment
