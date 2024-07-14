@@ -1,88 +1,91 @@
-# Responsive Navigation Menu in React JS
+Online Bus Booking Platform
+Project Description
+The Online Bus Booking Platform is a comprehensive web application developed using the MERN stack. It provides users with a seamless experience for searching and booking bus tickets. The platform includes features like real-time seat availability, secure payment integration, and a user-friendly interface, ensuring an efficient and hassle-free booking process.
 
-This repository contains code for responsive navbar in react with react-router functoinalities.
+Tech Stack
+Frontend: React.js, TypeScript
+Backend: Node.js, Express.js
+Database: MongoDB
+Payment Gateway: Integration with Stripe (or any other payment service)
+Deployment: Vercel (frontend), Heroku (backend)
+Features
+User Authentication and Authorization
+User registration and login functionality
+JWT-based authentication for secure access
+Role-based access control (user, admin)
+Bus Search and Booking
+Search for available buses based on source, destination, and travel date
+Real-time seat availability
+Detailed bus information including timings, seat types, and prices
+Booking confirmation with email notifications
+Payment Integration
+Secure payment processing using Stripe (or an alternative payment gateway)
+Handling payment success and failure scenarios
+Admin Panel
+Admin interface for managing buses, routes, and schedules
+View and manage user bookings
+Dashboard for monitoring system performance and booking statistics
+User-Friendly Interface
+Responsive design ensuring seamless use across devices (desktops, tablets, mobile phones)
+Easy navigation and intuitive user experience
+Additional Features
+Booking history and e-ticket generation
+Real-time notifications for booking updates
+Integration with Google Maps for route visualization
+Project Setup
+Prerequisites
+Node.js and npm installed
+MongoDB installed and running
+Installation
+Clone the repository:
 
-If you want to learn how to create it please follow below tutorial:
-https://youtu.be/BHC-ll9PFe0 
+bash
+Copy code
+git clone https://github.com/yourusername/online-bus-booking.git
+cd online-bus-booking
+Backend Setup:
 
+bash
+Copy code
+cd backend
+npm install
+Frontend Setup:
 
-> Note: The icons have been changed to a React components using react-svgr playground, check the changes in latest commit. 
+bash
+Copy code
+cd ../frontend
+npm install
+Running the Application
+Start the Backend Server:
 
+bash
+Copy code
+cd backend
+npm start
+Start the Frontend Server:
 
-Images:
+bash
+Copy code
+cd ../frontend
+npm start
+Access the Application:
+Open your browser and navigate to http://localhost:3000
 
-![Full Width Image](https://github.com/codebucks27/React-responsive-navbar/blob/main/screenshot-localhost_3000-2020.12.08-17_19_26.png)
+Deployment
+The application is deployed using:
 
-![Responsive Navbar](https://github.com/codebucks27/React-responsive-navbar/blob/main/screenshot-localhost_3000-2020.12.08-17_21_58.png)     ![Responsive Navbar](https://github.com/codebucks27/React-responsive-navbar/blob/main/screenshot-localhost_3000-2020.12.08-17_21_11.png) 
+Frontend: Vercel Online Bus Booking Platform
+Backend: Heroku (or an alternative hosting service)
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements, bug fixes, or new features.
 
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
+Contact
+For any inquiries or support, please contact:
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Name: Mariyala Rajesh
+Email: rajeshmariyala3@gmail.com
+LinkedIn: Rajesh Mariyala
+GitHub: RajeshMariyala
